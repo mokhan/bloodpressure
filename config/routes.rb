@@ -1,4 +1,3 @@
 Bloodpressure::Engine.routes.draw do
-  get 'health/show'
-
+  get 'health', to: 'health#show'
 end

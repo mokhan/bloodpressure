@@ -5,9 +5,8 @@ module Bloodpressure
     include Engine.routes.url_helpers
 
     test "should get show" do
-      get health_show_url
+      get health_url
       assert_response :success
     end
-
   end
 end
