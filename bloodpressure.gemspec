@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = Bloodpressure::VERSION
   s.authors     = ["mo khan"]
   s.email       = ["mo@mokhan.ca"]
-  s.homepage    = "http://www.mokhan.ca"
+  s.homepage    = "https://github.com/mokhan/bloodpressure"
   s.summary     = "Summary of Bloodpressure."
   s.description = "Description of Bloodpressure."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.0.1"
+  s.add_dependency "rails", "~> 4.2.7"
 
   s.add_development_dependency "sqlite3"
 end

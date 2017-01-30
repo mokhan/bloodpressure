@@ -4,7 +4,7 @@ module Bloodpressure
   class HealthController < ApplicationController
     def show
       @hostname = Socket.gethostname
-      render status: http_status
+      render layout: nil, status: http_status
     end
 
     private
